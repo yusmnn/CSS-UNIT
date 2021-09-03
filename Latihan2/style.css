@@ -1,0 +1,76 @@
+:root {
+    /* font-size: 10px; */
+}
+body {
+    font-family: 'roboto',sans-serif;
+    color: #333;
+    text-align: center;
+    background-color: rgb(228, 213, 213);
+    line-height: 1.6;
+    font-weight: 300;
+    min-height: 2000px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.typografi {
+    display: flex;
+}
+
+.typografi .col {
+    flex: 1;
+    margin: 0 0.5em;
+    padding:0 0,5em;
+}
+
+/* ukuran default 16px */
+/* em */
+/* .typografi {
+    font-size: 10px;
+}
+
+.col-em {
+    font-size: 2em;
+}
+
+.col-em h2 {
+    font-size: 2em;
+}
+
+.col-em p {
+    font-size: 1.5em;
+} */
+
+/* .col-rem h2 {
+    font-size: 2rem;
+}
+
+.col-rem p {
+    font-size: 1.5rem;
+}
+
+/* tips gunakan rem untuk font */
+/* gunakan em untuk length (margin,padding dll) */
+
+.btn {
+    display: inline-block;
+    background: black;
+    font-weight: 700px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase ;
+
+    padding: 1em 3em;
+    margin: 0 1.5rem;
+}
+
+.btn-sm {
+    font-size: 0.5em;
+}
+
+.btn-lg {
+    font-size: 2em;
+}
